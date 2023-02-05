@@ -1,0 +1,7 @@
+services:
+  api:
+    volumes:
+      - shell-log:/home/${API_USER_NAME}/shell_log
+    command: bash -c "while sleep 1000; do :; done"
+volumes:
+  shell-log:
