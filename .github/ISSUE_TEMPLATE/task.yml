@@ -14,7 +14,6 @@ body:
   - type: markdown
     id: acceptance-criteria
     attributes:
-      description: List the requirements that must be met for the task to be considered completed.
       value: |
         - [ ] Requirement 1
         - [ ] Requirement 2
