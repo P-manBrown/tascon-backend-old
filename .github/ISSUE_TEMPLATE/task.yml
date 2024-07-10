@@ -1,0 +1,31 @@
+name: Task
+description: Use this template for creating tasks related to project development.
+title: "Brief description of the task"
+assignees:
+  - P-manBrown
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Provide a detailed description of the task. What needs to be done? Why is this task necessary?"
+    validations:
+      required: true
+  - type: markdown
+    id: acceptance-criteria
+    attributes:
+      description: "List the requirements that must be met for the task to be considered completed."
+      value: |
+        - [ ] Requirement 1
+        - [ ] Requirement 2
+        - [ ] Requirement 3
+    validations:
+      required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: "Include any additional information, links, or references that may be relevant to completing the task."
+      placeholder: "Any additional information..."
+    validations:
+      required: false
