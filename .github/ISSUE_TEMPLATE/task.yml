@@ -7,7 +7,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Provide a detailed description of the task. What needs to be done? Why is this task necessary?
+      description: Provide a detailed description of the task.\n What needs to be done?\n Why is this task necessary?
     validations:
       required: true
   - type: textarea
