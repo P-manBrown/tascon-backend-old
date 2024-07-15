@@ -1,6 +1,6 @@
 name: Git Lint
 
-on: pull_request
+on: merge_group
 
 jobs:
   run:
