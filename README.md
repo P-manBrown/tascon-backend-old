@@ -145,3 +145,7 @@ docker compose run --rm --no-deps api bash setup/scripts/create-pj.sh
 ```terminal
 bash setup/scripts/initial-commit.sh
 ```
+
+
+
+
