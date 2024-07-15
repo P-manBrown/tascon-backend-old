@@ -1,10 +1,13 @@
 name: Git Lint
 
 on:
-  merge_group:
+  pull_request:
+    types:
+      - closed
 
 jobs:
   run:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     container:
       image: ruby:latest
