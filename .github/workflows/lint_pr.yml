@@ -16,5 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: amannn/action-semantic-pull-request@v5
+        with:
+          subjectPattern: ^(?![A-Z]).+[^.]$
+          subjectPatternError: |
+            The subject "{subject}" found in the pull request title "{title}"
+            did not match the configured pattern. Please ensure that the subject
+            starts with a lowercase character and does not end with a period.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
