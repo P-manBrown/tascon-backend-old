@@ -1,4 +1,6 @@
 name: Task
+labels:
+  - task
 description: Use this template for creating tasks related to project development.
 assignees:
   - P-manBrown
@@ -9,9 +11,11 @@ body:
       label: Description
       description: Provide a detailed description of the task.
       value: |
-        ### What needs to be done?
+        #### What needs to be done?
+          - [ ]
 
-        ### Why is this task necessary?
+        #### Why is this task necessary?
+
     validations:
       required: true
   - type: textarea
@@ -20,8 +24,6 @@ body:
       label: Acceptance Criteria
       description: List the requirements that must be met for the task to be considered completed.
       value: |
-        - [ ]
-        - [ ]
         - [ ]
     validations:
       required: true
