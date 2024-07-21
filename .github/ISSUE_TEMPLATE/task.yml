@@ -1,5 +1,6 @@
 name: Task
 description: Use this template for creating tasks related to project development.
+title: "<type>[!]: <subject>"
 labels: ["task"]
 assignees:
   - P-manBrown
