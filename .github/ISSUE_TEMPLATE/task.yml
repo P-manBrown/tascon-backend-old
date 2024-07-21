@@ -1,7 +1,6 @@
 name: Task
-labels:
-  - task
 description: Use this template for creating tasks related to project development.
+labels: ["task"]
 assignees:
   - P-manBrown
 body:
@@ -9,13 +8,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Provide a detailed description of the task.
-      value: |
-        #### What needs to be done?
-          - [ ]
-
-        #### Why is this task necessary?
-
+      description: Provide a detailed description of the task. What needs to be done? Why is this task necessary?
     validations:
       required: true
   - type: textarea
