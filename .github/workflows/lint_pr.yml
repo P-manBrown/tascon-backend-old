@@ -1,4 +1,4 @@
-name: "Lint PR"
+name: Semantic Pull Request
 
 on:
   pull_request:
@@ -6,6 +6,9 @@ on:
       - opened
       - edited
       - synchronize
+
+permissions:
+  pull-requests: read
 
 jobs:
   main:
@@ -19,4 +22,5 @@ jobs:
             The subject "{subject}" found in the pull request title "{title}"
             did not match the configured pattern. Please ensure that the subject
             starts with a lowercase character and does not end with a period.
-            
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
