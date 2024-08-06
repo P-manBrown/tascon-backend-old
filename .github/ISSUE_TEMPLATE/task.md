@@ -12,7 +12,7 @@ assignees: P-manBrown
 
 ### Acceptance Criteria
 <!-- List the requirements that must be met for the task to be considered completed. -->
-- [ ] 
+- [ ]
 
 ### Additional Information (Optional)
 <!-- Include any additional information, links, or references that may be relevant to completing the task. -->
