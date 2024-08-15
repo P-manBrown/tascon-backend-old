@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: describe_bug
     attributes:
-      label: バグの説明
+      label: 説明
       description: 可能な限り詳細にバグの内容を説明してください。
       placeholder: バグの内容を記述してください...
     validations:
@@ -31,7 +31,7 @@ body:
     id: expected_behavior
     attributes:
       label: 期待される動作
-      description: どのような動作が期待されていたかを説明してください。
+      description: どのような動作を期待していたかを説明してください。
       placeholder: 期待される動作を記述してください...
     validations:
       required: true
