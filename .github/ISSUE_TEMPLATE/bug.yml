@@ -48,7 +48,7 @@ body:
     attributes:
       label: 環境
       description: バグが発生した環境について記述してください。
-      value: |
+      placeholder: |
         - OS: [e.g. iOS(v17.6.1)]
         - Browser: [e.g. chrome(v127.0.6533.101), safari(v17.6)]
     validations:
