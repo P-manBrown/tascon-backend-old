@@ -4,7 +4,6 @@ title: '[Bug]: '
 labels: ['bug']
 assignees:
   - P-manBrown
-
 body:
   - type: textarea
     id: describe_bug
@@ -14,7 +13,6 @@ body:
       placeholder: バグの内容を記述してください...
     validations:
       required: true
-
   - type: textarea
     id: to_reproduce
     attributes:
@@ -26,7 +24,6 @@ body:
         3. 〇〇のようなエラーが表示される
     validations:
       required: true
-
   - type: textarea
     id: expected_behavior
     attributes:
@@ -35,14 +32,12 @@ body:
       placeholder: 期待される動作を記述してください...
     validations:
       required: true
-
   - type: textarea
     id: screenshots
     attributes:
       label: スクリーンショット
       description: バグについてわかるスクリーンショットを添付してください。
       placeholder: スクリーンショットを添付してください...
-
   - type: textarea
     id: environment
     attributes:
@@ -53,7 +48,6 @@ body:
         - Browser: [e.g. chrome(v127.0.6533.101), safari(v17.6)]
     validations:
       required: true
-
   - type: textarea
     id: additional_context
     attributes:
